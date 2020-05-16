@@ -1,0 +1,70 @@
+:root {
+  font-size: 12px;
+  font-family: monospace;
+  --color: #FF0000;
+  --bg: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+  color: var(--color);
+  background-color: var(--bg);
+
+}
+
+
+a {
+  color: inherit;
+
+}
+
+svg {
+  display: block;
+  fill: currentColor;
+}
+
+.bhat {
+  vertical-align: text-top;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 500px;
+  padding-top: 40px;
+  padding-bottom: 200px;
+  size:100vh;
+
+
+}
+.credits {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 0.75rem;
+}
+
+.credits > span {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+}
